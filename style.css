@@ -1,0 +1,72 @@
+html {
+  display: block;
+}
+
+
+body {
+  line-height: 1.6;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: rgba(133, 133, 133, 0.78)
+}
+
+.banner h3 {
+  font-style: italic;
+  font-size: 30px;
+  font-family: 'Lora';
+  color: rgba(255, 255, 255, 0.78)
+}
+
+div {
+  display: block;
+}
+
+.banner{
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  padding: 120px 0px;
+  color: white;
+  background-size: cover;
+  margin: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  font-weight: lighter;
+  color: rgb(70, 70, 70);
+}
+
+a {
+  background-color: rgb(216, 242, 216);
+  font-style: italic;
+  font-size: 25px;
+  font-family: 'Lora';
+  color: rgba(70, 70, 70, 0.7);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(179, 241, 179);
+}
